@@ -19,7 +19,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/christianschuler8989/CRAMT-Slides">
-    <img src="https://github.com/christianschuler8989/CRAMT-Slides/blob/main/public/title-logo.png" alt="Logo" width="200" height="200">
+    <img src="https://github.com/christianschuler8989/CRAMT-Slides/blob/main/public/title-logo.png" alt="Logo" width="500" height="200">
     <!-- <img src="https://github.com/christianschuler8989/CRAMT-Slides/blob/main/public/title-banner.png" alt="Logo" width="200" height="200"> -->
   </a>
   <h3 align="center">CRAMT</h3>

@@ -278,7 +278,7 @@
 				<figcaption>
 					Number of language varieties (#Var) and <br> corresponding ISO-Codes (#ISO) according to Glottolog [1], <br> number of wikipedia articles (#Wiki) according to Wikimedia [2].
 				</figcaption>
-				<p>
+				<p class="text-[2vh]">
 					<br>
 					[1] http://glottolog.org
 					<br>
@@ -295,7 +295,7 @@
 
 	<script> newChapter("Related Work"); </script>
 	<Slide><Layout>
-		<titlebar > Bridging the Gap Language </titlebar>
+		<titlebar > Bridging the Language Gap </titlebar>
 		<mybody>
 			<div class="flex items-center justify-center">
 				<img class="h-[70vh] align-middle" src="CRAMT-Tool-TextAlignmentsOverviewMulti.png" alt="tum logo">
