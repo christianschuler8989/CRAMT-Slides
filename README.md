@@ -1,136 +1,79 @@
+<a name="readme-top"></a>
+ 
+<!-- PROJECT SHIELDS -->
+<!--
+*** We are using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/AnranW/AwesomeAnranAnimotion">
-    <img src="public/Automation-StatusUpdatesLogo.png" alt="Logo" width="330" height="120">
+  <a href="https://github.com/christianschuler8989/CRAMT-Slides">
+    <img src="https://github.com/christianschuler8989/CRAMT-Slides/blob/main/public/title-logo.png" alt="Logo" width="200" height="200">
+    <!-- <img src="https://github.com/christianschuler8989/CRAMT-Slides/blob/main/public/title-banner.png" alt="Logo" width="200" height="200"> -->
   </a>
-
-  <h3 align="center">Awesome Anran Animotion</h3>
-
-  <p align="center">
-    Awesome presentation slides for local and online use!
+  <h3 align="center">CRAMT</h3>
+  
+  Cross-Lingual Resource Aggregation of Low-Resource Machine Translation and Metadata
 </div>
 
-- [Intro](#intro)
-- [Features](#features)
-  - [This Template](#this-template)
-  - [Animotion package](#animotion-package)
-- [Technical details](#technical-details)
-- [Setup, usage, and deployment](#setup-usage-and-deployment)
-  - [Setup](#setup)
-  - [Usage](#usage)
-  - [Deployment](#deployment)
-- [Troubleshooting](#troubleshooting)
 
 
-# Intro
-This is **AwesomeAnranAnimotion**, built upon [Animotion](https://animotion.pages.dev). 
+--- 
 
-A preview of the slides built with this template can be found [here](https://AnranW.github.io/AwesomeAnranAnimotion). 
+# CRAMT at EXPO 2024
 
-# Features
-## This Template
-Note that this project is still under development, bugs can exist and features can change. 
-- Automatically calculated total slide number.
+* CRAMT: Cross-Lingual Resource Aggregation of Low-Resource Machine Translation and Metadata
+ + [Slides](https://christianschuler8989.github.io/CRAMT-Slides/#/slide-1) for presenting CRAMT on the EXPO 2024.
+ + [Paper (TODO)]() published as part of (TODO: Blinded)
+ + [Code (TODO)]() (TODO: Blinded)
 
-    <img src="public/pagenumber.png" style="width:5vw">
-- Automatically generated navigation bar on top, including separation into chapters. 
+* [EXPO 2024 (TODO)]()
+TODO
 
-    ![](public/navibar.png)
-- Highlight current slide in navigation bar. 
+* [base.camp (Creative Lab at the Informatikum)](https://www.inf.uni-hamburg.de/inst/basecamp/blog.html)
+The base.camp is a creative laboratory of computer science at the University of Hamburg. It serves as an interdisciplinary platform for applied research in the core topics Big Data, Artificial intelligence (AI) and SEcurity (BASE). With this focus the lab wants to support digitisation.
 
-    ![](public/highlight.png)
-- Hyperlink to corresponding slides. 
-
-    <img src="public/goto.png" style="width:20vw">
-
-## [Animotion](https://animotion.pages.dev) package
-- Automatic animation.
-- Better code presentation.
-- Multimedia support (audios, videos, scrollable pdf...)
-- And so much [more](https://animotion.pages.dev/docs)...
-
-# Technical details
-The most important modifications are in the following files: 
-- [src/layout.svelte](src/layout.svelte) : define the layout 
-- [src/slides.svelte](src/slides.svelte) : includes the scripts that implements the features
-- [src/config.ts](src/config.ts) : activate custom layout, etc.
-
-# Setup, usage, and deployment
-## Setup
-Install dependencies. 
-```sh
-pnpm i
-```
-
-Run the development server at http://localhost:5173/. 
-```sh
-pnpm run dev
-```
+* [Code for Presentation Slides](https://github.com/christianschuler8989/CRAMT-Slides) 
+This Repository, you are currently looking at (for linking from somewhere else).
 
 
-## Usage
-Include the layout file at the beginning of [slides.svelte](/src/slides.svelte). 
-```html
-<script>
-    import Layout from './layout.svelte'
-</script>
-```
 
-Declare a new chapter with chapter name. 
-```html
-<script>newChapter("Chapter Name")</script>
-```
+--- 
 
-Use layout inside <Slide>. 
-```html
-<Layout>
-    ...
-</Layout>
-```
+<!-- ACKNOWLEDGMENTS -->
+# Acknowledgments
 
-Use title bars as needed: 
-```html
-<titlebar>
-    ...
-</titlebar>
-```
+Helpful resources we would like to give credit to:
 
-Use "mybody" tag for centering layout as needed: 
-```html
-<mybody>
-    ...
-</mybody>
-```
+* [AwesomeAnranSlides for Online Presentation Slides](https://github.com/AnranW/AwesomeAnranSlides)
+* [Best-README-Template](https://github.com/othneildrew/Best-README-Template) 
 
 
-## Deployment
-Build and preview deploy.
-```sh
-pnpm run build && pnpm run preview
-```
 
-1. Change configuration for "base" into the name of your repository at the last line of [vite.config.ts](vite.config.ts). 
-2. Go to repository **Settings->Pages->Build and deployment->Source and select** *GitHub Actions*. 
 
-Optional: more building options can be found in the YAML file at [.github/workflows/deploy.yml](.github/workflows/deploy.yml). 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-For more details, see [Vite](https://vitejs.dev/guide/static-deploy.html). 
-
-# Troubleshooting
-- **Issue:** Any.
-  - **Possible solution:** Inspect errors by pressing alt+ctl+i or opt+cmd+i to locate which slide is the problematic one. 
-
-- **Issue:** Empty HTML content with error message like "server returned with status 404"
-  - **Possible solution:** Check that the "base" is set correctly in [vite.config.ts](vite.config.ts). 
-
-- **Issue:** Images not showing despite being in "public/" folder
-  - **Possible solution:** Add or remove the slash in front of the relative path of the image files, depending on whether a slash is present at the end of "base" configuration in [vite.config.ts](vite.config.ts). 
-
-- **Issue:** Circles on top of the slides not showing
-  - **Possible reason:** JavaScript codes at the end of [slides.svelte](src/slides.svelte) was not executed to the end because of errors due to absent bug catching and assertions that are to be implemented.
-
-- **Issue:** Layout elements missing and "Uncaught TypeError: slidesInChapter[0] is undefined"
-  - **Possible reason:** This can happen if a chapter is defined but has no slides- just make sure to add some content to each slide-code-block.
-
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/christianschuler8989/CRAMT-Slides.svg?style=for-the-badge
+[contributors-url]: https://github.com/christianschuler8989/CRAMT-Slides/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/christianschuler8989/CRAMT-Slides.svg?style=for-the-badge
+[forks-url]: https://github.com/christianschuler8989/CRAMT-Slides/network/members
+[stars-shield]: https://img.shields.io/github/stars/christianschuler8989/CRAMT-Slides.svg?style=for-the-badge
+[stars-url]: https://github.com/christianschuler8989/CRAMT-Slides/stargazers
+[issues-shield]: https://img.shields.io/github/issues/christianschuler8989/CRAMT-Slides.svg?style=for-the-badge
+[issues-url]: https://github.com/christianschuler8989/CRAMT-Slides/issues
+[license-shield]: https://img.shields.io/github/license/christianschuler8989/CRAMT-Slides.svg?style=for-the-badge
+[license-url]: https://github.com/christianschuler8989/CRAMT-Slides/blob/main/LICENSE
 
