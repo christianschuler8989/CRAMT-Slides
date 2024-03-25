@@ -13,11 +13,12 @@
 <Presentation>	
 	<script>
 		// information about this presentation 
-		const author = "Anran Wang"; 
-		const title = "This Is My Own Title";
-		const subtitle = "And here is my subtitle";
-		const department = "Department of Informatics"; 
-		const university = "Technical University of Munich"; 
+		const author = "Christian Schuler, Tramy Thi Tran, Deepesha Saurty, <br>Anran Wang, Raman Ahmad, Seid Muhie Yimam"; 
+		const authorshort = "Schuler, Tran, Saurty, Wang, Ahmad, Yimam"; 
+		const title = "CRAMT";
+		const subtitle = "Cross-Lingual Resource Aggregation of Low-Resource<br> Machine Translation and Metadata";
+		const department = "Student's Project"; 
+		const university = "A Tool to collect Language Data"; 
 		var currentChapterName="";
 		var currentChapterNumber=0;
 		var chapterNames=[];
@@ -64,7 +65,7 @@
 		</div>
 		<br>
 		<div class="flex items-center justify-center">
-			<img class="h-[10vh] align-middle" src="tum-logo.svg" alt="tum logo">
+			<img class="h-[15vh] align-middle" src="title-logo.png" alt="tum logo">
 		</div>
 		<!-- fill in the data for this presentation  -->
 		<script> 
@@ -77,9 +78,9 @@
 		</script>
 	</Layout></Slide>
 	<!-- TOC -->
-	<Slide>
+	<!-- <Slide>
 		<script>
-			toc=true; // decides whether to generate table of content page
+			toc=false; // decides whether to generate table of content page
 		</script>
 		<Layout>
 			<toc class="flex h-full items-center justify-center gap-[100px]">
@@ -87,25 +88,128 @@
 				<chpnames class="text-left"> </chpnames>
 			</toc>
 		</Layout>
-	</Slide>
+	</Slide> -->
 	
 	<!-- intro -->
 	<script>newChapter("Introduction")</script>
+	<Slide>
+		<Layout>
+			<titlebar>
+				Project Team
+			</titlebar>
+			<mybody>
+				<div class="grid" style="grid-template-columns: auto auto auto auto auto auto; mx-auto my-auto;">
+					<!-- Names -->
+					<div class="flex w-[16vw] items-center justify-center gap-[10px]">
+						Christian Schuler
+					</div>
+					<div class="flex w-[16vw] items-center justify-center gap-[10px]">
+						Tramy Thi Tran
+					</div>
+					<div class="flex w-[16vw] items-center justify-center gap-[10px]">
+						Deepesha Saurty
+					</div>
+					<div class="flex w-[16vw] items-center justify-center gap-[10px]">
+						Anran Wang
+					</div>
+					<div class="flex w-[16vw] items-center justify-center gap-[10px]">
+						Raman Ahmad
+					</div>
+					<div class="flex w-[16vw] items-center justify-center gap-[10px] text-[3vh]">
+						Seid Muhie Yimam
+					</div>
+
+					<!-- Images -->
+					<figure class="h-[60vh] w-[15vw] float-left mx-auto my-auto">
+						<a href="https://christianschuler8989.github.io/">
+							<img src="Christian_Schuler_08_Energydrink.jpg" alt="christian" class="h-[40vh]">
+							<figcaption class="text-[2.3vh]">
+								Master student in computer science at University of Hamburg.
+							</figcaption>
+							<figcaption class="text-[1.3vh]">
+								With a passion for languages and colors, he aims to do a PhD. <br>Additionally, he eats more pizza in one year than any of you in your lifetime!
+							</figcaption>
+						</a>
+					</figure>
+					<figure class="h-[60vh] w-[15vw] float-left mx-auto my-auto">
+						<img src="DDLitLab-TextAsCorpusRep-Myyyy2.jpeg" alt="myy" class="h-[40vh]">
+						<figcaption class="text-[2.3vh]">
+							Bachelor student in something like computer science at University of Hamburg.
+						</figcaption>
+						<figcaption class="text-[1.3vh]">
+							She is not simply the head of our HR-department, she IS the entire department! XD #bestProjectCoordinatorInTown
+						</figcaption>
+					</figure>
+					<figure class="h-[60vh] w-[15vw] float-left mx-auto my-auto">
+						<img src="DDLitLab-TextAsCorpusRep-Tania2.jpg" alt="tania" class="h-[40vh]">
+						<figcaption class="text-[2.3vh]">
+							Bachelor student in computer science at University of Hamburg.
+						</figcaption>
+						<figcaption class="text-[1.3vh]">
+							By now she went down the rabbit hole of science so much, that people actually heard her say "Algorithms are fun!"
+						</figcaption>
+					</figure>
+					<figure class="h-[60vh] w-[15vw] float-left mx-auto my-auto">
+						<img src="Anran_Wang_01.png" alt="anran" class="h-[40vh]">
+						<figcaption class="text-[2.3vh]">
+							Master student in computer science at Technical University Munich.
+						</figcaption>
+						<figcaption class="text-[1.3vh]">
+							She is so awesome, that she did not start looking for a PhD position like most mortal beings do- the PhD position came falling out of the sky and had to apply to her first!
+						</figcaption>
+					</figure>
+					<figure class="h-[60vh] w-[15vw] float-left mx-auto my-auto">
+						<img src="Raman_Ahmad_01.png" alt="raman" class="h-[40vh]">
+						<figcaption class="text-[2.3vh]">
+							Bachelor student in computer science at Hochschule für Angewandte Wissenschaften in Hamburg.
+						</figcaption>
+						<figcaption class="text-[1.3vh]">
+							He is currently exploring various ways to advance the low-resource language Kurdish with a focus on the Kobani dialect.
+						</figcaption>
+					</figure>
+					<figure class="h-[60vh] w-[15vw] float-left mx-auto my-auto">
+						<a href="https://seyyaw.github.io/">
+							<img src="DDLitLab-TextAsCorpusRep-Mentor.jpeg" alt="seid" class="h-[40vh]">
+							<figcaption class="text-[2.3vh]">
+								Technical Lead at HCDS and Research Associate at Language Technology Group in Hamburg.
+							</figcaption>
+						</a>
+						<figcaption class="text-[1.3vh]">
+							He researches low-resource languages, in particular related to the Amharic language, while he uses his spare time to mentor and supervise groups of students like noone else could! :D
+						</figcaption>
+					</figure>
+					
+					<!-- Logos -->
+					<figure class="flex h-[10vh] w-[15vw] items-center justify-center mx-auto my-auto">
+						<img src="uhh-logo.png" alt="uhh-logo" class="h-[7vh]">
+					</figure>
+					<figure class="flex h-[10vh] w-[15vw] items-center justify-center mx-auto my-auto">
+						<img src="uhh-logo.png" alt="uhh-logo" class="h-[7vh]">
+					</figure>
+					<figure class="flex h-[10vh] w-[15vw] items-center justify-center mx-auto my-auto">
+						<img src="uhh-logo.png" alt="uhh-logo" class="h-[7vh]">
+					</figure>
+					<figure class="flex h-[10vh] w-[15vw] items-center justify-center mx-auto my-auto">
+						<img src="tum-logo.png" alt="tum-logo" class="h-[7vh]">
+					</figure>
+					<figure class="flex h-[10vh] w-[15vw] items-center justify-center mx-auto my-auto">
+						<img src="haw-logo.png" alt="haw-logo" class="h-[7vh]">
+					</figure>
+					<figure class="flex h-[10vh] w-[15vw] items-center justify-center mx-auto my-auto">
+						<img src="uhh-logo.png" alt="uhh-logo" class="h-[7vh]">
+					</figure>
+					
+				</div>
+			</mybody>
+		</Layout>
+	</Slide>
+
 	<Slide><Layout>
-		<titlebar > On how to use these Presentation Slides  </titlebar>
+		<titlebar > Beyond Languages </titlebar>
 		<mybody>
-			<ul class="a">
-				<li>Press F to enter full screen.</li>
-				<ul class="b"> 
-					<li>To better check the layout.</li>
-				</ul>
-				<br>
-				<li>Press fn+s to enter presenter mode.</li>
-				<ul class="b"> 
-					<li>Where you can see the next slide.</li>
-					<li>And read your notes for each slide.</li>
-				</ul>
-			</ul>
+			<div class="flex items-center justify-center">
+				<img class="h-[75vh] align-middle" src="title-banner.png" alt="tum logo">
+			</div>
 		</mybody>
 	</Layout>
 	<Notes>
@@ -115,43 +219,303 @@
 
 	
 
-	<script>newChapter("Text");</script>
+	<script>newChapter("Motivation");</script>
 	<Slide><Layout>
-		<titlebar > Simple Text </titlebar>
+		<titlebar > Gaps in Translation Tools </titlebar>
 		<mybody>
-			<div class="flex h-full items-center justify-center gap-[100px]">
-				You can add text, and different media files such as<br> 
-				images, pdfs, videos to your presentation slides.<br>
-				The following slides showcase some of these applications<br> 
-				for easy reproduction.
+			<div class="flex items-center justify-center">
+				<img class="h-[75vh] align-middle" src="CRAMT-Tool-MotivationSimpleMore.png" alt="tum logo">
 			</div>
 		</mybody>
-	</Layout></Slide>
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes></Slide>
 
 	<Slide><Layout>
-		<titlebar > A List of Text Items </titlebar>
+		<titlebar > Lack of Standardization </titlebar>
+		<mybody>
+			<figure>
+				<table>
+					<tr>
+						<th>Dialect Group</th>
+						<th>#Var</th>
+						<th>#ISO Codes</th>
+						<th>#Wiki (Articles)</th>
+					</tr>
+					<tr>
+						<td>Central Kurdish</td>
+						<td>13</td>
+						<td>2</td>
+						<td>53,856</td>
+					</tr>
+					<tr>
+						<td>Northern Kurdish</td>
+						<td>28</td>
+						<td>1</td>
+						<td>75,358</td>
+					</tr>
+					<tr>
+						<td>Southern Kurdish</td>
+						<td>13</td>
+						<td>1</td>
+						<td>0</td>
+					</tr>
+					<tr>
+						<td>Zazaki</td>
+						<td>10</td>
+						<td>3</td>
+						<td>41,811</td>
+					</tr>
+					<tr>
+						<td>Gorani</td>
+						<td>13</td>
+						<td>4</td>
+						<td>0</td>
+					</tr>
+				  </table>
+				<figcaption>
+					Number of language varieties (#Var) and <br> corresponding ISO-Codes (#ISO) according to Glottolog [1], <br> number of wikipedia articles (#Wiki) according to Wikimedia [2].
+				</figcaption>
+				<p>
+					<br>
+					[1] http://glottolog.org
+					<br>
+					[2] https://meta.wikimedia.org/wiki/List_of_Wikipedias_by_language_group
+				</p>
+			</figure>
+			
+		</mybody>
+	</Layout>
+	<Notes>
+		Harald Hammarström, Robert Forkel, Martin Haspelmath, and Sebastian Bank. 2023. Glot- tolog 4.8. (Available online at http://glottolog.org, Accessed on 2024-03-06.).
+		Wikimedia. 2024. List of Wikipedias by language group - Meta — meta.wikimedia.org. https://meta.wikimedia.org/wiki/List_of_Wikipedias_by_language_group. [Accessed 06-03-2024].
+	</Notes></Slide>
+
+	<script> newChapter("Related Work"); </script>
+	<Slide><Layout>
+		<titlebar > Bridging the Gap Language </titlebar>
+		<mybody>
+			<div class="flex items-center justify-center">
+				<img class="h-[70vh] align-middle" src="CRAMT-Tool-TextAlignmentsOverviewMulti.png" alt="tum logo">
+			</div>
+		</mybody>
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes></Slide>
+
+	<Slide><Layout>
+		<titlebar > Use of Pivot Languages </titlebar>
+		<mybody>
+			<div class="flex items-center justify-center">
+				<img class="h-[70vh] align-middle" src="CRAMT-Tool-TextAlignments.png" alt="tum logo">
+			</div>
+		</mybody>
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes></Slide>
+
+	<Slide><Layout>
+		<titlebar > Bilingual Lexicon Induction (TODO) </titlebar>
+		<mybody>
+			<div class="flex items-center justify-center">
+				<img class="h-[75vh] align-middle" src="title-banner.png" alt="tum logo">
+			</div>
+		</mybody>
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes></Slide>
+
+	<Slide><Layout>
+		<titlebar > Language Ambiguities I </titlebar>
+		<mybody>
+			<figure class="h-[30vh] w-[95vw] float-left mx-auto my-auto">
+				<img src="CRAMT-Tool-WordAlignmentExample.png" alt="ambiguities1" class="h-[30vh]">
+				<figcaption class="w-[93vw]">
+					Finding new word alignments by traversing multiple cross-lingual alignments and assuming these relations to be transitive.
+				</figcaption>
+			</figure>
+			<!-- <div class="flex items-center justify-center">
+				<img class="h-[30vh] w-[95vw] align-middle" src="CRAMT-Tool-WordAlignmentExample.png" alt="tum logo">
+			</div> -->
+		</mybody>
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes></Slide>
+
+	<Slide><Layout>
+		<titlebar > Language Ambiguities II </titlebar>
+		<mybody>
+			<figure class="h-[80vh] w-[95vw] float-left mx-auto my-auto">
+				<img src="CRAMT-Tool-WordAlignmentLimitation.png" alt="ambiguities2" class="h-[70vh]">
+				<figcaption class="w-[93vw]">
+					The word ambiguity during translation of the German Grün into the English green resulting in additional translation candidates.
+				</figcaption>
+			</figure>
+
+			<!-- <div class="flex items-center justify-center">
+				<img class="h-[70vh] w-[95vw] align-middle" src="CRAMT-Tool-WordAlignmentLimitation.png" alt="tum logo">
+			</div> -->
+		</mybody>
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes></Slide>
+
+	<Slide><Layout>
+		<titlebar > Language Ambiguities III </titlebar>
+		<mybody>
+			<figure class="h-[80vh] w-[95vw] float-left mx-auto my-auto">
+				<img src="CRAMT-Tool-WordAlignmentLimitationExample.png" alt="ambiguities1" class="h-[70vh]">
+				<figcaption class="w-[93vw]">
+					Continuing on ambiguous translations (red) instead of aggregating to the most likely candidate (green) can enrich a dataset with additional labels across languages (blue).
+				</figcaption>
+			</figure>
+
+			<!-- <div class="flex items-center justify-center">
+				<img class="h-[70vh] w-[95vw] align-middle" src="CRAMT-Tool-WordAlignmentLimitationExample.png" alt="tum logo">
+			</div> -->
+		</mybody>
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes></Slide>
+
+	<script> newChapter("Design \& Development"); </script>
+	<Slide><Layout>
+		<titlebar > Overview of CRAMT </titlebar>
+		<mybody>
+			<figure class="h-[80vh] w-[70vw]">
+				<img src="CRAMT-Tool-OverviewSimpleSlick.png" alt="ambiguities1" class="mx-auto">
+				<figcaption>
+					Overview of the CRAMT toolkit. User inputs in blue, main processing steps in yellow and resulting artifacts in green.
+				</figcaption>
+			</figure>
+
+			<!-- <div class="flex items-center justify-center">
+				<img class="h-[75vh] align-middle" src="CRAMT-Tool-OverviewSimpleSlick.png" alt="tum logo">
+			</div> -->
+		</mybody>
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes></Slide>
+
+	<script> newChapter("Used Tools"); </script>
+	<Slide><Layout>
+		<titlebar > GlotLID (TODO) </titlebar>
+		<mybody>
+			<div class="flex items-center justify-center">
+				<img class="h-[75vh] align-middle" src="title-banner.png" alt="tum logo">
+			</div>
+		</mybody>
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes></Slide>
+	
+	<Slide><Layout>
+		<titlebar > Potato (TODO) </titlebar>
+		<mybody>
+			<div class="flex items-center justify-center">
+				<img class="h-[75vh] align-middle" src="title-banner.png" alt="tum logo">
+			</div>
+		</mybody>
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes></Slide>
+
+	<script> newChapter("Data Quality"); </script>
+	<Slide><Layout>
+		<titlebar > Annotation via Anchor Items </titlebar>
+		<mybody>
+			<div class="flex items-center justify-center">
+				<img class="h-[75vh] align-middle" src="CRAMT-Tool-AnnotationQuality.png" alt="tum logo">
+			</div>
+		</mybody>
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes></Slide>
+
+	<script> newChapter("Future Work"); </script>
+	<Slide><Layout>
+		<titlebar > Language Data waiting to be collected </titlebar>
+		<mybody>
+			<div class="grid" style="grid-template-columns: auto auto auto; mx-auto my-auto;">
+				<!-- Images -->
+				<figure class="h-[35vh] w-[30vw] float-left mx-auto my-auto">
+					<img src="Kurmanjî-wordcloud.png" alt="kurmanji" class="h-[30vh]">
+					<figcaption class="text-[2.3vh]">
+						Kurmanji
+					</figcaption>
+				</figure>
+				<figure class="h-[35vh] w-[30vw] float-left mx-auto my-auto">
+					<img src="Morisien-wordcloud.png" alt="morisien" class="h-[30vh]">
+					<figcaption class="text-[2.3vh]">
+						Morisien
+					</figcaption>
+				</figure>
+				<figure class="h-[35vh] w-[30vw] float-left mx-auto my-auto">
+					<img src="Vietnamese-wordcloud.png" alt="vietnamese" class="h-[30vh]">
+					<figcaption class="text-[2.3vh]">
+						Vietnamese
+					</figcaption>
+				</figure>
+
+				<figure class="h-[35vh] w-[30vw] float-left mx-auto my-auto">
+					<img src="Chinese-wordcloud.png" alt="chinese" class="h-[30vh]">
+					<figcaption class="text-[2.3vh]">
+						Chinese
+					</figcaption>
+				</figure>
+				<figure class="h-[35vh] w-[30vw] float-left mx-auto my-auto">
+					<img src="German-wordcloud.png" alt="german" class="h-[30vh]">
+					<figcaption class="text-[2.3vh]">
+						German
+					</figcaption>
+				</figure>
+				<figure class="h-[35vh] w-[30vw] float-left mx-auto my-auto">
+					<img src="English-wordcloud.png" alt="english" class="h-[30vh]">
+					<figcaption class="text-[2.3vh]">
+						English
+					</figcaption>
+				</figure>
+		</mybody>
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes></Slide>
+
+	<script> newChapter("Conclusion"); </script>
+	<Slide><Layout>
+		<titlebar > Three-fold Outcome </titlebar>
 		<mybody>
 			<ul class="a" >
-				<li>The First Text Item.</li>
-				<ul class="b"> 
-					<li>The 1. Sub-Item.</li>
-				</ul>
+				<li>1. Text Corpus for specific target languages aiming to provide new aligned text data.</li>
 				<br>
-				<li>The Second Text Item.</li>
-				<ul class="b"> 
-					<li>The 2. Sub-Item.</li>
-					<ul class="c"> 
-						<li>Sub-Sub-Item a.</li>
-						<li>Sub-Sub-Item b.</li>
-					</ul>
-					<li>The 3. Sub-Item.</li>
-				</ul>
+				<li>2. Analysis of the collected and aligned data. 
+					<br>Some help to get a quick idea of the data distribution such as generated word clouds,
+					<br>but also reports to provide deeper insights about the data.</li>
 				<br>
-				<li>The Third Text Item.</li>
-				<ul class="b"> 
-					<li>The 4. Sub-Item.</li>
-				</ul>
-			</ul>
+				<li>3. Datasheet that can represent and explain the newly created dataset and its purpose.</li>
 		</mybody>
 	</Layout>
 	<Notes>
@@ -159,154 +523,36 @@
 		They are displayed on the presenter's screen if "presenter mode" has been entered.
 	</Notes></Slide>
 
-	<script> newChapter("Images"); </script>
+	<script> newChapter("References"); </script>
 	<Slide><Layout>
-		<titlebar > An Image with a Caption </titlebar>
+		<titlebar > Poster-Related References (TODO) </titlebar>
 		<mybody>
-			<figure>
-				<img src="tum-logo.svg" alt="tumlogo" class="mx-auto my-[2vh]">
-				<figcaption> This is an example figure with caption. </figcaption>
-			</figure>
+			<ul class="a" >
+				<li>Ahmadi, (2020)</li>
+				<li>Yu, et al., (2022)</li>
+				<li>Artetxe, et al., (2022)</li>
+				<li>Kreutzer, et al., (2022)</li>
+				<li>Vulić, et al., (2013)</li>
+				<li>Gouws, et al., (2016)</li>
+				<li>Bafna, et al., (2023)</li>
+				<li>Karakante, et al., (2018)</li>
+				<li>Reimers, et al., (2020)</li>
+				<li>de Vries, et al., (2021)</li>
+				<li>Yimam, et al., (2020)</li>
+				<li>Millour, et al., (2020)</li>
+				<li>Lent, et al., (2022)</li>
+				<li>Liu, et al., (2022)</li>
+				<li>Cahyawijaya, et al., (2023)</li>
+				<li>Pei, et al., (2022)</li>
+				<li>Kargaran, et al., (2023)</li>
+				<li>Haig, (2001)</li>
+			</ul>
 		</mybody>
-	</Layout></Slide>
-
-	<Slide><Layout>
-		<titlebar > Here is a grid of images </titlebar>
-		<mybody>			
-			<div class="grid mt-[10vh] mx-[10vh]" style="grid-template-columns: auto auto auto;">
-				<img src="tum-logo.svg" alt="tumlogo" class="h-[40vh] px-[5vh]">
-				<img src="tum-logo.svg" alt="tumlogo" class="h-[40vh] px-[5vh]">
-				<img src="tum-logo.svg" alt="tumlogo" class="h-[40vh] px-[5vh]">
-				<img src="tum-logo.svg" alt="tumlogo" class="h-[40vh] px-[5vh]">
-				<img src="tum-logo.svg" alt="tumlogo" class="h-[40vh] px-[5vh]">
-				<img src="tum-logo.svg" alt="tumlogo" class="h-[40vh] px-[5vh]">
-			</div>
-		</mybody>
-	</Layout></Slide>
-
-	<script> newChapter("PDFs"); </script>
-	<Slide><Layout>
-		<titlebar > Another PDF File as part of the Slide Deck </titlebar>
-		<mybody>			
-			<div class="h-[75vh] w-[90vw] mx-auto my-auto">
-				<iframe src="media-sample.pdf#page=1&zoom=100" frameBorder="0" scrolling="auto" height="100%" width="100%" title="ESSV Publication"></iframe>
-			</div>
-		</mybody>
-	</Layout></Slide>
-
-	<script> newChapter("Videos"); </script>
-	<Slide><Layout>
-		<titlebar > Single Animated gif File (no sound) </titlebar>
-		<mybody>
-			<figure>
-				<img src="https://i.stack.imgur.com/SBv4T.gif" alt="this slowpoke moves" class="w-[75vw] h-[75vh] mx-auto my-auto p-2" />
-				<figcaption> Stock-Gif of a Slowpoke for testing gif-display.<br> </figcaption>
-			</figure>
-		</mybody>
-	</Layout></Slide>
-	
-	<Slide><Layout>
-		<titlebar > Single Video with multiple available Captions </titlebar>
-		<mybody>
-			<figure>
-				<video controls class="w-[50vw] h-[44vh] mx-auto my-auto p-2">
-					<source src="media-never_gonna_give_you_up-video_medium-43_51.mp4" type="video/mp4" />
-					<track kind="captions" label="English" srclang="eng" src="media-video-captions-eng.vtt"/>
-					<track kind="captions" label="German" srclang="deu" src="media-video-captions-deu.vtt"/>
-					<track kind="captions" label="Chinese" srclang="zho" src="media-video-captions-zho.vtt" default/>
-					<track kind="captions" label="Chinese Pinyin" srclang="zho" src="media-video-captions-zhopinyin.vtt"/>
-				</video>
-				<figcaption> Play a video file from the repository.<br> </figcaption>
-			</figure>
-		</mybody>
-	</Layout></Slide>
-
-	<Slide><Layout>
-		<titlebar > Multiple Videos on the same Slide </titlebar>
-		<mybody>
-			<figure>
-				<video controls class="w-[50vw] h-[44vh] mx-auto my-auto p-2" loop>
-					<source src="media-never_gonna_give_you_up-video_medium-43_51.mp4" type="video/mp4" />
-					<track kind="captions" label="English" srclang="eng" src="media-video-captions-eng.vtt"/>
-					<track kind="captions" label="German" srclang="deu" src="media-video-captions-deu.vtt"/>
-					<track kind="captions" label="Chinese" srclang="zho" src="media-video-captions-zho.vtt" default/>
-					<track kind="captions" label="Chinese Pinyin" srclang="zho" src="media-video-captions-zhopinyin.vtt"/>
-				</video>
-				<figcaption> Video that loops.<br>Default caption: Chinese. </figcaption>
-			</figure>
-
-			<figure>
-				<video controls class="w-[50vw] h-[44vh] mx-auto my-auto p-2">
-					<source src="media-never_gonna_give_you_up-video_medium-43_51.mp4" type="video/mp4" />
-					<track kind="captions" label="English" srclang="eng" src="media-video-captions-eng.vtt" default/>
-					<track kind="captions" label="German" srclang="deu" src="media-video-captions-deu.vtt"/>
-					<track kind="captions" label="Chinese" srclang="zho" src="media-video-captions-zho.vtt"/>
-					<track kind="captions" label="Chinese Pinyin" srclang="zho" src="media-video-captions-zhopinyin.vtt"/>
-				</video>
-				<figcaption> Video without looping.<br>Default caption: English. </figcaption>
-			</figure>
-		</mybody>
-	</Layout></Slide>
-
-	<Slide><Layout>
-		<titlebar > Multiple Videos in a Grid </titlebar>
-		<mybody>
-			<div class="grid mx-auto my-auto" style="grid-template-columns: auto auto;">
-				<figure>
-					<video controls class="w-[50vw] h-[40vh] mx-auto my-auto p-2" loop>
-						<source src="media-never_gonna_give_you_up-video_medium-00_06.mp4" type="video/mp4" />
-						<track kind="captions" label="English" srclang="eng" src="media-video-captions-eng.vtt" default/>
-						<track kind="captions" label="German" srclang="deu" src="media-video-captions-deu.vtt"/>
-						<track kind="captions" label="Chinese" srclang="zho" src="media-video-captions-zho.vtt"/>
-						<track kind="captions" label="Chinese Pinyin" srclang="zho" src="media-video-captions-zhopinyin.vtt"/>
-					</video>
-					<figcaption class="text-[2vh]"> Video with default caption: English. </figcaption>
-				</figure>
-	
-				<figure>
-					<video controls class="w-[50vw] h-[40vh] mx-auto my-auto p-2" loop>
-						<source src="media-never_gonna_give_you_up-video_medium-06_12.mp4" type="video/mp4" />
-						<track kind="captions" label="English" srclang="eng" src="media-video-captions-eng.vtt"/>
-						<track kind="captions" label="German" srclang="deu" src="media-video-captions-deu.vtt" default/>
-						<track kind="captions" label="Chinese" srclang="zho" src="media-video-captions-zho.vtt"/>
-						<track kind="captions" label="Chinese Pinyin" srclang="zho" src="media-video-captions-zhopinyin.vtt"/>
-					</video>
-					<figcaption class="text-[2vh]"> Video with default caption: German. </figcaption>
-				</figure>
-	
-				<figure>
-					<video controls class="w-[50vw] h-[40vh] mx-auto my-auto p-2" loop>
-						<source src="media-never_gonna_give_you_up-video_medium-12_18.mp4" type="video/mp4" />
-						<track kind="captions" label="English" srclang="eng" src="media-video-captions-eng.vtt"/>
-						<track kind="captions" label="German" srclang="deu" src="media-video-captions-deu.vtt"/>
-						<track kind="captions" label="Chinese" srclang="zho" src="media-video-captions-zho.vtt" default/>
-						<track kind="captions" label="Chinese Pinyin" srclang="zho" src="media-video-captions-zhopinyin.vtt"/>
-					</video>
-					<figcaption class="text-[2vh]"> Video with default caption: Chinese. </figcaption>
-				</figure>
-	
-				<figure>
-					<video controls class="w-[50vw] h-[40vh] mx-auto my-auto p-2" loop>
-						<source src="media-never_gonna_give_you_up-video_medium-18_24.mp4" type="video/mp4" />
-						<track kind="captions" label="English" srclang="eng" src="media-video-captions-eng.vtt"/>
-						<track kind="captions" label="German" srclang="deu" src="media-video-captions-deu.vtt"/>
-						<track kind="captions" label="Chinese" srclang="zho" src="media-video-captions-zho.vtt"/>
-						<track kind="captions" label="Chinese Pinyin" srclang="zho" src="media-video-captions-zhopinyin.vtt" default/>
-					</video>
-					<figcaption class="text-[2vh]"> Video with default caption: Chinese Pinyin. </figcaption>
-				</figure>
-			</div>
-		</mybody>
-	</Layout></Slide>
-
-	<script> newChapter("To wrap it up"); </script>
-	<Slide><Layout>
-		<titlebar > Here is the title for this slide </titlebar>
-		<div class="flex h-full items-center justify-center gap-[100px]">
-			This template is still work on progress. 
-		</div>
-	</Layout></Slide>
-
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes></Slide>
 
 	<!-- to mimic the latex template  -->
 	<script>
@@ -317,7 +563,7 @@
 			// one section, one slide
 			document.getElementsByTagName('section')[i].setAttribute("id", "slide-"+(i+1));
 			// add author name 
-			document.getElementsByTagName('author')[i].innerText=author;
+			document.getElementsByTagName('author')[i].innerText=authorshort;
 			// add title 
 			document.getElementsByTagName('mytitle')[i].innerHTML="<a href=\"#slide-1\">"+title+"</a>";
 			// show slide number with total slide number
@@ -410,9 +656,7 @@
 			padding-bottom:1vh;
 		}
 		titlebar{
-			position:absolute;
-			top:0;
-			left:0;
+			display:flex;
 			background: rgb(242,242,242); 
 			width: 100vw; 
 			height: 9vh; 
