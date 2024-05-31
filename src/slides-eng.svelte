@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Presentation, Slide, Notes, Step } from '@components'
+	import { Presentation, Slide, Notes } from '@components'
 	import Layout from './layout.svelte'
 </script>
 
@@ -15,10 +15,10 @@
 		// information about this presentation 
 		const author = "Christian Schuler, Tramy Thi Tran, Deepesha Saurty, <br>Anran Wang, Raman Ahmad, Seid Muhie Yimam"; 
 		const authorshort = "Schuler, Tran, Saurty, Wang, Ahmad, Yimam"; 
-		const title = "Mehrsprachige Datenaggregation für Machinenübersetzung von Sprachen mit geringen Ressourcen";
-		const subtitle = "(CRAMT - Cross-Lingual Resource Aggregation of<br> Low-Resource Machine Translation and Metadata)";
-		const department = "Studenten Projekt"; 
-		const university = "Ein Werkzeug fürs Sammeln von Sprachdaten"; 
+		const title = "CRAMT";
+		const subtitle = "Cross-Lingual Resource Aggregation of Low-Resource<br> Machine Translation and Metadata";
+		const department = "Student's Project"; 
+		const university = "A Tool to collect Language Data"; 
 		var currentChapterName="";
 		var currentChapterNumber=0;
 		var chapterNames=[];
@@ -205,173 +205,7 @@
 	</Slide>
 
 	<Slide><Layout>
-		<titlebar > Verarbeitung Natürlicher Sprache - ChatGPT</titlebar>
-		<mybody>
-			<div class="flex items-center justify-center">
-				<img class="h-[75vh] align-middle" src="ChatGPT-01.png" alt="chatGPT01">
-			</div>
-		</mybody>
-	</Layout>
-	<Notes>
-		Notes
-	</Notes></Slide>
-
-	<Slide><Layout>
-		<titlebar > Verarbeitung Natürlicher Sprache - ChatGPT</titlebar>
-		<mybody>
-			<div class="flex items-center justify-center">
-				<img class="h-[75vh] align-middle" src="ChatGPT-02.png" alt="chatGPT01">
-			</div>
-		</mybody>
-	</Layout>
-	<Notes>
-		Notes
-	</Notes></Slide>
-
-	<Slide><Layout>
-		<titlebar > Verarbeitung Natürlicher Sprache - ChatGPT</titlebar>
-		<mybody>
-			<div class="flex items-center justify-center">
-				<img class="h-[75vh] align-middle" src="ChatGPT-03.png" alt="chatGPT01">
-			</div>
-		</mybody>
-	</Layout>
-	<Notes>
-		Notes
-	</Notes></Slide>
-
-	<Slide><Layout>
-		<titlebar > Sprachverarbeitung und Bilder - StableDiffusion</titlebar>
-		<mybody>
-			<div class="flex items-center justify-center">
-				<img class="h-[75vh] align-middle" src="Domi-001.png" alt="domi01">
-			</div>
-			<Step>
-				<div class="flex items-center justify-center">
-					<img class="h-[75vh] align-middle" src="Domi-002.png" alt="domi02">
-				</div>
-			</Step>
-			<Step>
-				<div class="flex items-center justify-center">
-					<img class="h-[75vh] align-middle" src="Domi-003.png" alt="domi03">
-				</div>
-			</Step>
-			<Step>
-				<div class="flex items-center justify-center">
-					<img class="h-[75vh] align-middle" src="Domi-004.png" alt="domi04">
-				</div>
-			</Step>
-		</mybody>
-	</Layout>
-	<Notes>
-		A proud warrior holding his diploma. The warrior is clad in armor.
-		Ein stolzer Krieger der sein Diplom hält. Der Krieger ist in eine Rüstung gehüllt.
-	</Notes></Slide>
-
-	<!-- <Slide><Layout>
-		<titlebar > Sprachverarbeitung und Bilder - StableDiffusion</titlebar>
-		<mybody>
-			<div class="flex items-center justify-center">
-				<img class="h-[75vh] align-middle" src="Domi-005.png" alt="domi01">
-			</div>
-			<Step>
-				<div class="flex items-center justify-center">
-					<img class="h-[75vh] align-middle" src="Domi-006.png" alt="domi02">
-				</div>
-			</Step>
-		</mybody>
-	</Layout>
-	<Notes>
-		A proud warrior holding his diploma. The warrior is clad in armor.
-		Ein stolzer Krieger der sein Diplom hält. Der Krieger ist in eine Rüstung gehüllt.
-	</Notes></Slide> -->
-
-
-	<Slide><Layout>
-		<titlebar > Sprachen im Internet </titlebar>
-		<mybody>
-			<div class="flex items-center justify-center">
-				<img class="h-[75vh] align-middle" src="LowResource-IL01.png" alt="chatGPT01">
-			</div>
-		</mybody>
-	</Layout></Slide>
-
-	<Slide><Layout>
-		<titlebar > Sprachen im Internet </titlebar>
-		<mybody>
-			<div class="flex items-center justify-center">
-				<img class="h-[75vh] align-middle" src="LowResource-IL02.png" alt="chatGPT01">
-			</div>
-		</mybody>
-	</Layout></Slide>
-
-	<Slide><Layout>
-		<titlebar > Sprachen im Internet </titlebar>
-		<mybody>
-			<div class="flex items-center justify-center">
-				<img class="h-[75vh] align-middle" src="LowResource-IL03.png" alt="chatGPT01">
-			</div>
-		</mybody>
-	</Layout></Slide>
-
-	<Slide><Layout>
-		<titlebar > Sprachen im Internet </titlebar>
-		<mybody>
-			<div class="flex items-center justify-center">
-				<img class="h-[75vh] align-middle" src="LowResource-IL04.png" alt="chatGPT01">
-			</div>
-		</mybody>
-	</Layout></Slide>
-
-	<Slide><Layout>
-		<titlebar > Sprachen im Internet </titlebar>
-		<mybody>
-			<div class="flex items-center justify-center">
-				<img class="h-[75vh] align-middle" src="LowResource-IL05.png" alt="chatGPT01">
-			</div>
-		</mybody>
-	</Layout></Slide>
-
-	<Slide><Layout>
-		<titlebar > Sprachen im Internet </titlebar>
-		<mybody>
-			<div class="flex items-center justify-center">
-				<img class="h-[75vh] align-middle" src="LowResource-IL06.png" alt="chatGPT01">
-			</div>
-		</mybody>
-	</Layout></Slide>
-
-	<Slide><Layout>
-		<titlebar > Sprachen im Internet </titlebar>
-		<mybody>
-			<div class="flex items-center justify-center">
-				<img class="h-[75vh] align-middle" src="LowResource-IL07.png" alt="chatGPT01">
-			</div>
-		</mybody>
-	</Layout></Slide>
-
-	<Slide><Layout>
-		<titlebar > Sprachen im Internet </titlebar>
-		<mybody>
-			<div class="flex items-center justify-center">
-				<img class="h-[75vh] align-middle" src="LowResource-IL08.png" alt="chatGPT01">
-			</div>
-		</mybody>
-	</Layout></Slide>
-
-	<Slide><Layout>
-		<titlebar > Sprachen im Internet </titlebar>
-		<mybody>
-			<div class="flex items-center justify-center">
-				<img class="h-[75vh] align-middle" src="LowResource-IL09.png" alt="chatGPT01">
-			</div>
-		</mybody>
-	</Layout></Slide>
-	
-
-	<script>newChapter("Motivation");</script>
-	<Slide><Layout>
-		<titlebar > Über (Sprach-)Grenzen hinweg </titlebar>
+		<titlebar > Beyond Languages </titlebar>
 		<mybody>
 			<div class="flex items-center justify-center">
 				<img class="h-[75vh] align-middle" src="title-banner.png" alt="tum logo">
@@ -382,9 +216,12 @@
 		These are some presenter notes that can help during the actual presentation.<br>
 		They are displayed on the presenter's screen if "presenter mode" has been entered.
 	</Notes></Slide>
+
 	
+
+	<script>newChapter("Motivation");</script>
 	<Slide><Layout>
-		<titlebar > Grenzen der Übersetzungsdienste </titlebar>
+		<titlebar > Gaps in Translation Tools </titlebar>
 		<mybody>
 			<div class="flex items-center justify-center">
 				<img class="h-[75vh] align-middle" src="CRAMT-Tool-MotivationSimpleMore.png" alt="tum logo">
@@ -397,26 +234,63 @@
 	</Notes></Slide>
 
 	<Slide><Layout>
-		<titlebar > Schwierigkeiten beim Übersetzen </titlebar>
+		<titlebar > Lack of Standardization </titlebar>
 		<mybody>
-			<ul class="a" >
-				<li>Das im Schottischen sehr übliche Wort "Tartle"</li>
-				<ul class="a" >
-					<li>Der unschöne Moment, der entsteht, während man versucht, sich an den Namen einer Person zu erinnern, der einem soeben entfallen ist.</li>
-					<li>Dies gilt aber nur, wenn einem der Name dann nach einem peinlichen Moment doch noch einfällt.</li>
-				</ul>
-				<br>
-				<li>Der Chinesische Begriff: 江湖 (jiāng hú)</li>
-				<ul class="a" >
-					<li>江 = river (Fluss)，湖 = lake (See)</li>
-					<li>江湖 = eine Gesellschaft in welcher Bruderschaft, Kameraderie, Tapferkeit, Gerechtigkeit sehr hoch angesehen sind, und weniger Gesetze und Ordnung etabliert ist.</li>
-					<li>Findet sich in Fiktion Romanen welche in antiken Zeiten (1000-1800) spielen, in denen "Kongfu" existiert und Menschen trainieren und lernen können, um große Macht zu erlangen. </li>
-				</ul>
+			<figure>
+				<table>
+					<tr>
+						<th>Dialect Group</th>
+						<th>#Var</th>
+						<th>#ISO Codes</th>
+						<th>#Wiki (Articles)</th>
+					</tr>
+					<tr>
+						<td>Central Kurdish</td>
+						<td>13</td>
+						<td>2</td>
+						<td>53,856</td>
+					</tr>
+					<tr>
+						<td>Northern Kurdish</td>
+						<td>28</td>
+						<td>1</td>
+						<td>75,358</td>
+					</tr>
+					<tr>
+						<td>Southern Kurdish</td>
+						<td>13</td>
+						<td>1</td>
+						<td>0</td>
+					</tr>
+					<tr>
+						<td>Zazaki</td>
+						<td>10</td>
+						<td>3</td>
+						<td>41,811</td>
+					</tr>
+					<tr>
+						<td>Gorani</td>
+						<td>13</td>
+						<td>4</td>
+						<td>0</td>
+					</tr>
+				  </table>
+				<figcaption>
+					Number of language varieties (#Var) and <br> corresponding ISO-Codes (#ISO) according to Glottolog [1], <br> number of wikipedia articles (#Wiki) according to Wikimedia [2].
+				</figcaption>
+				<p class="text-[2vh]">
+					<br>
+					[1] http://glottolog.org
+					<br>
+					[2] https://meta.wikimedia.org/wiki/List_of_Wikipedias_by_language_group
+				</p>
+			</figure>
+			
 		</mybody>
 	</Layout>
 	<Notes>
-		江湖： a society where brotherhood, comeradery, bravery, fairness is greatly valued, and less law and order established, <br>
-		usually appears in fiction novels set in ancient times (1000-1800s) where kongfu is possible and people can train and learn to have great power
+		Harald Hammarström, Robert Forkel, Martin Haspelmath, and Sebastian Bank. 2023. Glot- tolog 4.8. (Available online at http://glottolog.org, Accessed on 2024-03-06.).
+		Wikimedia. 2024. List of Wikipedias by language group - Meta — meta.wikimedia.org. https://meta.wikimedia.org/wiki/List_of_Wikipedias_by_language_group. [Accessed 06-03-2024].
 	</Notes></Slide>
 
 	<script> newChapter("Related Work"); </script>
