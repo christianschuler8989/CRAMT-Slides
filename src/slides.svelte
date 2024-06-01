@@ -151,7 +151,7 @@
 					</figure>
 					<figure class="h-[60vh] w-[15vw] float-left mx-auto my-auto">
 						<img src="Anran_Wang_01.png" alt="anran" class="h-[40vh]">
-						<figcaption class="text-[2.3vh]">
+						<figcaption class="text-[2vh]">
 							<!-- Master student in computer science at Technical University Munich. -->
 							Anran Wang, Phd Studentin, University of Saarland Graduate School; Wissenschaftliche Mitarbeiterin Max-Plank Institute, Software System, Saarbrücken.
 						</figcaption>
