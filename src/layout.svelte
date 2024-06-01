@@ -24,9 +24,9 @@
 	:root{
 		--tumblue: #0065BD;
 		--secondblue: #8AB1DA;
-		--uhhred: #e2001a;
-		--firstred: #ff5252;
-		--secondred: #ff9090;
+		--uhhred: #811b27;
+		--firstred: #cf6161;
+		--secondred: #694343;
 		--themecolor: var(--firstred);
 		--themecolorlight: var(--secondred);
 	}
