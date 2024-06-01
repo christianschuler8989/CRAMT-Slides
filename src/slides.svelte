@@ -42,7 +42,7 @@
 	<Slide><Layout>
 		<div class="m-16 flex h-[25vh] w-[90vw] bg-[var(--themecolor)] text-white items-center justify-center gap-[100px]">
 			<div>
-				<div class="text-[6vh]">
+				<div class="text-[5vh]">
 					<span id="mytitle"> </span>
 				</div>
 				<br>
@@ -152,10 +152,12 @@
 					<figure class="h-[60vh] w-[15vw] float-left mx-auto my-auto">
 						<img src="Anran_Wang_01.png" alt="anran" class="h-[40vh]">
 						<figcaption class="text-[2.3vh]">
-							Master student in computer science at Technical University Munich.
+							<!-- Master student in computer science at Technical University Munich. -->
+							Anran Wang, Phd Studentin, University of Saarland Graduate School; Wissenschaftliche Mitarbeiterin Max-Plank Institute, Software System, Saarbrücken.
 						</figcaption>
 						<figcaption class="text-[1.3vh]">
-							She is so awesome, that she did not start looking for a PhD position like most mortal beings do- the PhD position came falling out of the sky and had to apply to her first!
+							<!-- She is so awesome, that she did not start looking for a PhD position like most mortal beings do- the PhD position came falling out of the sky and had to apply to her first! -->
+							She is super awesome, and she is super lucky to have found amazing people in Hamburg and Saarbrücken to spend time with and study with.
 						</figcaption>
 					</figure>
 					<figure class="h-[60vh] w-[15vw] float-left mx-auto my-auto">
@@ -190,7 +192,8 @@
 						<img src="uhh-logo.png" alt="uhh-logo" class="h-[7vh]">
 					</figure>
 					<figure class="flex h-[10vh] w-[15vw] items-center justify-center mx-auto my-auto">
-						<img src="Logo-Saarbruecken-University.png" alt="saarbruecken-logo" class="h-[7vh]">
+						<img src="Anran-Logos-Stacked.png" alt="saarbruecken-logo" class="h-[7vh]">
+						<!-- <img src="Logo-Saarbruecken-University.png" alt="saarbruecken-logo" class="h-[7vh]"> -->
 						<!-- <img src="tum-logo.png" alt="tum-logo" class="h-[7vh]"> -->
 					</figure>
 					<figure class="flex h-[10vh] w-[15vw] items-center justify-center mx-auto my-auto">
