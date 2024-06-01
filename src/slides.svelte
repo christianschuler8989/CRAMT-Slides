@@ -153,7 +153,7 @@
 						<img src="Anran_Wang_01.png" alt="anran" class="h-[40vh]">
 						<figcaption class="text-[2vh]">
 							<!-- Master student in computer science at Technical University Munich. -->
-							Anran Wang, Phd Studentin, University of Saarland Graduate School; Wissenschaftliche Mitarbeiterin Max-Plank Institute, Software System, Saarbrücken.
+							Phd Studentin, University of Saarland Graduate School; Wissenschaftliche Mitarbeiterin Max-Plank Institute, Software System, Saarbrücken.
 						</figcaption>
 						<figcaption class="text-[1.3vh]">
 							<!-- She is so awesome, that she did not start looking for a PhD position like most mortal beings do- the PhD position came falling out of the sky and had to apply to her first! -->
